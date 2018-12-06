@@ -1,6 +1,4 @@
-*.pyc
 gym_snake.egg-info/
 tags
-gym_snake/__pycache__
-gym_snake/envs/__pycache__
-
+gym_snake/__pycache__/
+gym_snake/envs/__pycache__/
