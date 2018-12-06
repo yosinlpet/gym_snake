@@ -13,3 +13,7 @@ The state definition embeds two main objectives:
 - Each prey eaten grants the snake a quite large reward;
 - At each time step, the snake gets a small negative reward (this forces the snake to head faster to the prey);
 - At death time, a huge negative reward is returned.
+
+## Demo
+
+![alt text](https://github.com/yosinlpet/gym_snake/blob/master/demo.gif)
