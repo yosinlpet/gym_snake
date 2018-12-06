@@ -2,6 +2,28 @@
 
 A snake environment based on OpenAI gym.
 
+## Dependencies
+
+* [Gym](https://github.com/openai/gym)
+
+Run it like a Gym environment:
+
+```python
+import gym
+import gym_snake
+
+env = gym.make('Snake-v0')
+
+for episode in range(10):
+    observation = env.reset()
+    while True:
+        env.render()
+        action = env.action_space.sample()
+        observation, reward, done, _ = env.step(action)
+        if done:
+            break
+```
+
 ## State
 
 The state definition embeds two main objectives:
