@@ -39,3 +39,8 @@ The state definition embeds two main objectives:
 ## Demo
 
 ![alt text](https://github.com/yosinlpet/gym_snake/blob/master/demo.gif)
+
+## Caveats
+
+The state does not allow to avoid the winding of the snake on itself (see demo).
+This is the only way the snake dies after 1000 episodes of training with DQN.
